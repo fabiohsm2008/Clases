@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1476975672 source:e:\clases2\main.cpp
+	<iostream>
+	"Point.h"
+	"Vector.h"
+
+1476975092 e:\clases2\include\point.h
+
+1476975142 source:e:\clases2\src\point.cpp
+	<iostream>
+	"Point.h"
+
+1476975672 e:\clases2\include\vector.h
+	"Point.h"
+
+1476975828 source:e:\clases2\src\vector.cpp
+	<iostream>
+	"Vector.h"
+
+1476975142 source:f:\clases2\src\point.cpp
+	<iostream>
+	"Point.h"
+
+1476975092 f:\clases2\include\point.h
+
+1477060236 source:f:\clases2\main.cpp
+	<iostream>
+	"Point.h"
+	"Vector.h"
+
+1477060046 f:\clases2\include\vector.h
+	"Point.h"
+
+1477060078 source:f:\clases2\src\vector.cpp
+	<iostream>
+	"Vector.h"
+
