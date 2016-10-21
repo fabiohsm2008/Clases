@@ -1,11 +1,24 @@
+#include <iostream>
 #include "Arreglo.h"
 
-Arreglo::Arreglo()
+using namespace std;
+
+Arreglo::Arreglo(const Punto arreglo_puntos[], const int tamanio)
 {
-    //ctor
+    largo = tamanio;
+    punto = new Punto[largo];
+    int i;
+    for(i = 0; i != tamanio; ++i){
+        punto[i] = arreglo_puntos[i];
+    }
 }
 
-Arreglo::~Arreglo()
+Arreglo :: Arreglo(const Arreglo &Array)
 {
-    //dtor
+    largo = Array.largo;
+    punto = new Punto[largo];
+    int i;
+    for(i = 0; i != largo; ++i){
+        punto[i] = Array.punto[i];
+    }
 }

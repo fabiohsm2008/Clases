@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Point.h"
 #include "Vector.h"
+#include "Arreglo.h"
 
 using namespace std;
 
@@ -18,7 +19,10 @@ int main()
     punto2.imprimir();
     cout << punto2.getX() << endl;
     cout << punto2.getY() << endl;
+    /*
     Vector vector1(punto1, punto2);
-    vector1.imprimir(punto1, punto2);
+    vector1.imprimir(punto1, punto2);*/
+    Punto puntos[] = {punto1,punto2};
+    Arreglo _arreglo_(puntos,3);
     return 0;
 }

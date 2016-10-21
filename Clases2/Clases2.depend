@@ -23,10 +23,11 @@
 
 1476975092 f:\clases2\include\point.h
 
-1477060236 source:f:\clases2\main.cpp
+1477063262 source:f:\clases2\main.cpp
 	<iostream>
 	"Point.h"
 	"Vector.h"
+	"Arreglo.h"
 
 1477060046 f:\clases2\include\vector.h
 	"Point.h"
@@ -34,4 +35,11 @@
 1477060078 source:f:\clases2\src\vector.cpp
 	<iostream>
 	"Vector.h"
+
+1477063094 f:\clases2\include\arreglo.h
+	"Point.h"
+
+1477063342 source:f:\clases2\src\arreglo.cpp
+	<iostream>
+	"Arreglo.h"
 
