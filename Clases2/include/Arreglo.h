@@ -8,6 +8,7 @@ private:
     Punto *array_punto;
     void cambiar_largo(const int x);
 public:
+    Arreglo();
     Arreglo(const Punto arreglo_puntos[], const int tamanio);
     Arreglo(Arreglo &arrayX);
     void imprimir_arreglo();

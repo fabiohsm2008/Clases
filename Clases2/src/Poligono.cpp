@@ -1,12 +1,28 @@
 #include "Poligono.h"
 
-Poligono :: Poligono(const Arreglo arreglo_puntos, const int largo)
+Poligono :: Poligono(const Punto arreglo_puntos[], const int tamanio)
+{
+    Arreglo a(arreglo_puntos, tamanio);
+    puntos = a;
+}
+
+Poligono :: Poligono(Arreglo &arreglo_puntos)
 {
     puntos = arreglo_puntos;
-
 }
 
-Poligono :: Poligono(Arreglo &arreglos)
+double Poligono :: area(){}
+
+/*int Poligono :: getNumPoligonos()
 {
+    return instancias;
+}*/
 
-}
+int Poligono :: getNumLados(){}
+
+/*const Arreglo Poligono :: *getPuntos()
+{
+    Arreglo *ptr;
+    ptr = puntos;
+}*/
+

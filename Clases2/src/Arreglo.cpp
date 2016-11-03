@@ -3,6 +3,12 @@
 
 using namespace std;
 
+Arreglo :: Arreglo()
+{
+    largo = 0;
+    array_punto = new Punto[largo];
+}
+
 Arreglo :: Arreglo(const Punto arreglo_puntos[], const int tamanio)
 {
     largo = tamanio;
@@ -13,7 +19,7 @@ Arreglo :: Arreglo(const Punto arreglo_puntos[], const int tamanio)
     }
 }
 
-Arreglo :: Arreglo( Arreglo &arrayX)
+Arreglo :: Arreglo(Arreglo &arrayX)
 {
     largo = arrayX.largo;
     array_punto = new Punto[largo];

@@ -3,6 +3,8 @@
 
 using namespace std;
 
+Vector :: Vector(){}
+
 Vector :: Vector(Punto &i, Punto &f)
 {
     inicio = i; fin = f;

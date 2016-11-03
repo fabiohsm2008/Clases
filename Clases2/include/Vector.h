@@ -6,6 +6,7 @@ class Vector{
 private:
     Punto inicio, fin;
 public:
+    Vector();
     Vector(Punto &i, Punto &f);
     Vector(Vector &v);
     void set_inicio(Punto &i);
