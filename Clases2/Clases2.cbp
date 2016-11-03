@@ -36,10 +36,12 @@
 		</Compiler>
 		<Unit filename="include/Arreglo.h" />
 		<Unit filename="include/Point.h" />
+		<Unit filename="include/Poligono.h" />
 		<Unit filename="include/Vector.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Arreglo.cpp" />
 		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/Poligono.cpp" />
 		<Unit filename="src/Vector.cpp" />
 		<Extensions>
 			<code_completion />

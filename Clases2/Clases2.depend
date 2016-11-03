@@ -1,45 +1,53 @@
 # depslib dependency file v1.0
-1476975672 source:e:\clases2\main.cpp
-	<iostream>
-	"Point.h"
-	"Vector.h"
-
-1476975092 e:\clases2\include\point.h
-
-1476975142 source:e:\clases2\src\point.cpp
-	<iostream>
-	"Point.h"
-
-1476975672 e:\clases2\include\vector.h
-	"Point.h"
-
-1476975828 source:e:\clases2\src\vector.cpp
-	<iostream>
-	"Vector.h"
-
-1476975142 source:f:\clases2\src\point.cpp
-	<iostream>
-	"Point.h"
-
-1476975092 f:\clases2\include\point.h
-
-1477063262 source:f:\clases2\main.cpp
+1477577558 source:e:\clases2\main.cpp
 	<iostream>
 	"Point.h"
 	"Vector.h"
 	"Arreglo.h"
 
-1477060046 f:\clases2\include\vector.h
+1477526854 e:\clases2\include\point.h
+
+1477108362 source:e:\clases2\src\point.cpp
+	<iostream>
 	"Point.h"
 
-1477060078 source:f:\clases2\src\vector.cpp
+1477110674 e:\clases2\include\vector.h
+	"Point.h"
+
+1477110674 source:e:\clases2\src\vector.cpp
 	<iostream>
 	"Vector.h"
 
-1477063094 f:\clases2\include\arreglo.h
+1477108362 source:f:\clases2\src\point.cpp
+	<iostream>
 	"Point.h"
 
-1477063342 source:f:\clases2\src\arreglo.cpp
+1477526854 f:\clases2\include\point.h
+
+1477619438 source:f:\clases2\main.cpp
+	<iostream>
+	"Point.h"
+	"Vector.h"
+	"Arreglo.h"
+
+1477110674 f:\clases2\include\vector.h
+	"Point.h"
+
+1477110674 source:f:\clases2\src\vector.cpp
+	<iostream>
+	"Vector.h"
+
+1477667776 f:\clases2\include\arreglo.h
+	"Point.h"
+
+1477666482 source:f:\clases2\src\arreglo.cpp
 	<iostream>
 	"Arreglo.h"
+
+1477577286 source:e:\clases2\src\arreglo.cpp
+	<iostream>
+	"Arreglo.h"
+
+1477532748 e:\clases2\include\arreglo.h
+	"Point.h"
 
