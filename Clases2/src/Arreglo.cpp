@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Arreglo.h"
+#include <math.h>
 
 using namespace std;
 
@@ -131,4 +132,23 @@ void Arreglo :: limpiar()
 {
     delete array_punto;
     cambiar_largo(0);
+}
+
+Punto *Arreglo::getPunto(const int x)
+{
+    int i;
+    for (i=0; i!= largo; ++i){
+        if(i==x)
+            return &array_punto[i];
+    return NULL;
+    }
+}
+
+double Arreglo :: distancia(Punto a, Punto b)
+{
+    double resultado, A, B;
+    A =  b.getX() - a.getX();
+    B = b.getY() - a.getY();
+    resultado = sqrt(pow(A,2)+pow(B,2));
+    return resultado;
 }

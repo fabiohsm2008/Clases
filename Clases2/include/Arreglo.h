@@ -17,6 +17,8 @@ public:
     const int obtener_tamanio();
     void remover();
     void limpiar();
+    Punto *getPunto(const int x);
+    double distancia(Punto a, Punto b);
 };
 
 #endif // ARREGLO_H

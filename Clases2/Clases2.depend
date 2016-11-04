@@ -1,4 +1,53 @@
 # depslib dependency file v1.0
+1478181568 source:e:\clases2\gemetry.cpp
+	"Point.h"
+
+1478183690 e:\clases2\include\point.h
+
+1478142500 source:e:\clases2\main.cpp
+	<iostream>
+	"Point.h"
+	"Vector.h"
+	"Arreglo.h"
+	"Arreglo_vector.h"
+	"Poligono.h"
+
+1478133512 e:\clases2\include\vector.h
+	"Point.h"
+
+1478184816 e:\clases2\include\arreglo.h
+	"Point.h"
+
+1478138118 e:\clases2\include\arreglo_vector.h
+	"Vector.h"
+
+1478184312 e:\clases2\include\poligono.h
+	"Arreglo.h"
+
+1478184850 source:e:\clases2\src\arreglo.cpp
+	<iostream>
+	"Arreglo.h"
+
+1478141842 source:e:\clases2\src\arreglo_vector.cpp
+	"Arreglo_vector.h"
+	<iostream>
+
+1478183702 source:e:\clases2\src\point.cpp
+	<iostream>
+	"Point.h"
+	<math.h>
+
+1478135828 source:e:\clases2\src\vector.cpp
+	<iostream>
+	"Vector.h"
+
+1478182454 source:e:\clases2\src\poligono.cpp
+	"Poligono.h"
+	"gemetry.cpp"
+
+1478181294 e:\clases2\src\gemetry.cpp
+	"Point.h"
+
 1478142500 source:f:\clases2\main.cpp
 	<iostream>
 	"Point.h"
@@ -7,29 +56,30 @@
 	"Arreglo_vector.h"
 	"Poligono.h"
 
-1477526854 f:\clases2\include\point.h
+1478230974 f:\clases2\include\point.h
 
 1478133512 f:\clases2\include\vector.h
 	"Point.h"
 
-1478143746 f:\clases2\include\arreglo.h
+1478233244 f:\clases2\include\arreglo.h
 	"Point.h"
 
 1478138118 f:\clases2\include\arreglo_vector.h
 	"Vector.h"
 
-1478150434 f:\clases2\include\poligono.h
+1478233616 f:\clases2\include\poligono.h
 	"Arreglo.h"
 
-1478133334 source:f:\clases2\src\arreglo.cpp
+1478233248 source:f:\clases2\src\arreglo.cpp
 	<iostream>
 	"Arreglo.h"
+	<math.h>
 
 1478141842 source:f:\clases2\src\arreglo_vector.cpp
 	"Arreglo_vector.h"
 	<iostream>
 
-1477108362 source:f:\clases2\src\point.cpp
+1478230992 source:f:\clases2\src\point.cpp
 	<iostream>
 	"Point.h"
 
@@ -37,6 +87,8 @@
 	<iostream>
 	"Vector.h"
 
-1478146838 source:f:\clases2\src\poligono.cpp
+1478233616 source:f:\clases2\src\poligono.cpp
 	"Poligono.h"
+	"Point.h"
+	<math.h>
 
